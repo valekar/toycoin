@@ -1,0 +1,12 @@
+[package]
+name = "toycoin"
+version = "0.0.0"
+
+[dependencies]
+#MoveStdlib = { git = "https://github.com/move-language/move.git", subdir = "language/move-stdlib", rev = "main" }
+#MoveStdlib = {local = "deps/move-deps"}
+MoveNursery = { git = "https://github.com/move-language/move.git", subdir = "language/move-stdlib/nursery", rev = "main" }
+
+[addresses]
+Std = "0x1"
+
